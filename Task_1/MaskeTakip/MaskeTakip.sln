@@ -5,9 +5,9 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workaround", "Workaround\Workaround.csproj", "{027FCBDF-F1B5-4EE3-B440-2E604DD1D662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{8E4959D6-5332-4A0B-A313-85139E894D42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{8E4959D6-5332-4A0B-A313-85139E894D42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{1B1BB581-343C-41D9-9022-497A99A76415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{1B1BB581-343C-41D9-9022-497A99A76415}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

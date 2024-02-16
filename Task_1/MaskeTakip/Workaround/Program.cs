@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Business.Concrete;
+using Entities.Concrete;
+using System;
 
 
 namespace Workaround
@@ -7,36 +9,38 @@ namespace Workaround
     {
         static void Main(string[] args)
         {
-            //Degiskenler();
+            SelamVer(isim: "Murat");
+            SelamVer(isim: "Engin");
+            SelamVer(isim: "Ahmet");
+            SelamVer();
 
-            Vatandas vatandas1 = new Vatandas();
+            int sonuc = Topla(3,5);
+
+            //Diziler / Arrays
+
             
 
+            Person person1 = new Person();
+            person1.FirstName = "ENGİN";
+            person1.LastName = "DEMIROG";
+            person1.DateOfBirthYear = 1985;
+            person1.NationalIdentity = 123;
+
+            PttManager pttManager = new PttManager(new PersonManager());
+            pttManager.GiveMask(person1);
 
             Console.ReadLine();
         }
-
-        private static void Degiskenler()
+        //resharper
+        static void SelamVer(string isim = "isimsiz")
         {
-            string mesaj = "Merhaba";
-            double tutar = 100000;
-            int sayi = 100;
-            bool girisYapmisMi = false;
-
-            string ad = "Engin";
-            string soyad = "Demiroğ";
-            int dogumYili = 1985;
-            long tcNo = 12345678910;
-
-            Console.WriteLine(tutar * 1.18);
-            Console.WriteLine(tutar * 1.18);
+            Console.WriteLine("Merhaba " + isim);
         }
-    }
-    public class Vatandas
-    {
-        public string Ad { get; set; }
-        public string Soyad { get; set; }
-        public int DogumYili { get; set; }
-        public long TcNo { get; set; }
+        static int Topla(int sayi1, int sayi2)
+        {
+            int sonuc = sayi1+sayi2;
+            Console.WriteLine("Toplam : "+ sonuc);
+            return sonuc;
+        }
     }
 }
