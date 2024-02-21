@@ -12,3 +12,4 @@ C:\Users\mrtal\OneDrive\Masaüstü\Demirog\Canli_Yayinlar\Intro\Intro\obj\Debug\
 C:\Users\mrtal\OneDrive\Masaüstü\Demirog\Canli_Yayinlar\Intro\Intro\obj\Debug\net8.0\Intro.pdb
 C:\Users\mrtal\OneDrive\Masaüstü\Demirog\Canli_Yayinlar\Intro\Intro\obj\Debug\net8.0\Intro.genruntimeconfig.cache
 C:\Users\mrtal\OneDrive\Masaüstü\Demirog\Canli_Yayinlar\Intro\Intro\obj\Debug\net8.0\ref\Intro.dll
+C:\Users\mrtal\OneDrive\Masaüstü\Demirog\Canli_Yayinlar\Intro\Intro\obj\Debug\net8.0\Intro.sourcelink.json
