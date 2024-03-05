@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Intro.DataAccess.Concretes;
-public class CourseDal:ICourseDal
+public class CourseDal : ICourseDal
 {
     List<Course> courses;
     public CourseDal()

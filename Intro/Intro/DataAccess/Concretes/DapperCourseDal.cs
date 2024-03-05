@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Intro.DataAccess.Concretes;
 
-public class DapperCourseDal:ICourseDal
+public class DapperCourseDal : ICourseDal
 {
     List<Course> courses;
     public DapperCourseDal()

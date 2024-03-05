@@ -3,7 +3,7 @@ using Intro.Entities;
 
 namespace Intro.DataAccess.Concretes;
 
-public class EfCourseDal:ICourseDal
+public class EfCourseDal : ICourseDal
 {
     List<Course> courses;
     public EfCourseDal()

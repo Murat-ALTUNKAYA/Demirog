@@ -9,6 +9,6 @@ namespace Intro.DataAccess.Abstracts;
 
 public interface ICourseDal
 {
-    List<Course>  GetAll();
+    List<Course> GetAll();
     void Add(Course course);
 }
